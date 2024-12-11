@@ -1,5 +1,5 @@
 public class AddTwoNumbers {
-public static void main(string[] args) {
+public static void main(String[] args) {
 if (args.length < 2) {
 System.out.println("please provide two numbers as arguments.");
 return;
@@ -10,6 +10,6 @@ int num2 = Integer.parseInt(args[1]);
 //calculate the sum
 int sum = num1 + num2;
 //Display the result
-system.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
 }
 }
